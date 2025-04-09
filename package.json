@@ -1,0 +1,36 @@
+{
+  "name": "retry-loop",
+  "version": "1.0.0",
+  "description": "A lightweight, type-safe retry mechanism for TypeScript/JavaScript functions with customizable retry strategies",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "retry",
+    "retryz",
+    "async",
+    "typescript",
+    "promise"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.0.0",
+    "ts-jest": "^29.3.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
