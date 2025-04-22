@@ -1,6 +1,6 @@
 {
   "name": "retry-loop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight, type-safe retry mechanism for TypeScript/JavaScript functions with customizable retry strategies",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
