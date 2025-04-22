@@ -1,6 +1,6 @@
 # retry-loop
 
-[![npm version](https://badge.fury.io/js/youtube-summarize.svg)](https://www.npmjs.com/package/retry-loop)
+[![npm version](https://badge.fury.io/js/retry-loop.svg)](https://www.npmjs.com/package/retry-loop)
 
 A lightweight, type-safe retry mechanism for TypeScript/JavaScript functions. `retry-loop` provides a simple yet powerful way to handle transient failures in asynchronous operations with customizable retry strategies.
 

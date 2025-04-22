@@ -1,6 +1,6 @@
 {
   "name": "retry-loop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight, type-safe retry mechanism for TypeScript/JavaScript functions with customizable retry strategies",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -20,8 +20,12 @@
     "typescript",
     "promise"
   ],
-  "author": "",
+  "author": "Roberto Ríos <roberto@rrios.dev>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rrios-dev/retry-loop"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/jest": "^29.5.14",
